@@ -1,0 +1,169 @@
+
+<link rel="index.html"" href="styles.css">
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d0c39;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+  background-image: url('images.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+   background-position: bottom;
+}
+
+
+p. {
+  background-image: url('images.png');
+   background-repeat: no-repeat;
+    
+}
+
+
+.container-body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D33E43;
+    width: 35vw;
+    height: 35vh; 
+    box-shadow: 10px 10px 80px 0px #666370;
+}
+
+.container-body-header {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px; 
+}
+
+.container-body-value {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #FF220C;
+    border: 3px solid black;
+    margin: 10px; 
+}
+
+body {
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    color: white;
+    font-size: 45px; 
+}
+
+/* HTML: <div class="hexagon"></div> */
+.hex {
+  height: 380px; 
+  align-items: left;
+  clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+  background: #3B8686;
+  left: 8000px;
+    font-size: 40px;
+  
+
+}
+
+.hex-one {
+  height: 380px; 
+  align-items: left;
+  clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+  background: #AF1B3F;
+  z-index: -1; /* Moves hexagons behind everything */
+ 
+}
+
+.hex-two {
+  height: 380px; 
+  align-items: left;
+  clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+  background: yellow;
+ 
+}
+
+.hex-three {
+  height: 380px; 
+  align-items: left;
+  clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+  background: black;
+ 
+}
+
+
+.top-right {
+    position: absolute;
+    top: 200px;  /* Adjust distance from top */
+    right: 300px; /* Adjust distance from right */
+    font-size: 100px;
+}
+
+.top-left {
+    position: absolute;
+    top: 200px;  /* Adjust distance from top */
+    left: 200px; /* Adjust distance from right */
+    font-size: 100px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 200px;  /* Adjust distance from top */
+    right: 300px; /* Adjust distance from right */
+    font-size: 100px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 200px;  /* Adjust distance from top */
+    left: 200px; /* Adjust distance from right */
+    font-size: 100px;
+}
+
+
+.link {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Ensure visibility */
+    text-decoration: none;
+    z-index: 10; /* Ensures they are above the hexagons */
+}
+
+.top-left .link {
+  font-size: 40px; /* Adjust the size to your preference */
+}
+
+.top-right .link {
+  font-size: 40px; /* Adjust the size to your preference */
+}
+
+.bottom-left .link {
+  font-size: 40px; /* Adjust the size to your preference */
+}
+
+.bottom-right .link {
+  font-size: 40px; /* Adjust the size to your preference */
+}
+
+.name {
+    
+    color: black;
+}
+
+
+
+
+
